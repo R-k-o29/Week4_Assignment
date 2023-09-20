@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigattion bar</title>
+    <style>
+        ul{
+            padding: 0px;
+            margin: 0px;
+            list-style-type: none;
+            background-color: rgb(68, 160, 218);
+            overflow: hidden;
+        
+        }
+        li{
+            padding: 10px;
+            margin: 20px;
+            float: left;
+            text-decoration: none;
+        }
+        a{
+            display: block;
+            text-align: center;
+            padding: 16px 14px;
+            color: white;
+        }
+        a:hover{
+            color: blue;
+        }
+
+        li.nav-item:nth-child(1) a{
+            border: solid;
+        }
+        li.nav-item:nth-child(2) a{
+            border: dotted;
+        }
+        li.nav-item:nth-child(3) a{
+            border: dashed;
+        }
+        li.nav-item:nth-child(4) a{
+            border: ridge;
+        }
+        li.nav-item:nth-child(5) a{
+            border: groove;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="nav-item"><a href="Home">Home</a></li>
+        <li class="nav-item"><a href="About us">About us</a></li>
+        <li class="nav-item"><a href="Contact">Contact</a></li>
+        <li class="nav-item"><a href="Blog ">Blog</a></li>
+        <li class="nav-item"><a href="Login">Login</a></li>
+    </ul>
+</body>
+</html>
